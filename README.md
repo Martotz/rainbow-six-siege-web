@@ -13,15 +13,15 @@ Este sitio web es una base de datos interactiva sobre Rainbow Six Siege que incl
 - **Línea de tiempo histórica** del programa Rainbow
 - **Interfaz táctica** inspirada en el diseño del juego original
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
-- **HTML5** - Estructura semántica con metodología BEM
-- **CSS3** - Diseño responsivo con Flexbox y Grid
-- **JavaScript ES6+** - Manipulación del DOM y carga dinámica de datos
+- **HTML** - Estructura semántica con metodología BEM
+- **CSS** - Diseño responsivo con Flexbox y Grid
+- **JavaScript ** - Manipulación del DOM y carga dinámica de datos
 - **JSON** - Base de datos de operadores y armas
 - **Google Maps API** - Integración de ubicación de la base operativa
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Nueva-Pagina-R6/
@@ -60,32 +60,32 @@ Nueva-Pagina-R6/
     └── Habilidades/
 ```
 
-## ✨ Características Principales
+## Características Principales
 
-### 🎯 Operadores
+# Operadores
 - Sistema de filtrado por bando (Atacantes/Defensores)
 - Tarjetas interactivas con información detallada
 - Perfiles completos con biografía, stats y equipamiento
 - Indicadores visuales de estadísticas (círculos y barras)
 
-### 🔫 Arsenal
+# Arsenal
 - Acordeón organizado por categorías de armas
 - Más de 120 armas catalogadas
 - Imágenes de alta calidad en formato AVIF
 - Grid responsivo adaptativo
 
-### 📝 Reclutamiento
+# Reclutamiento
 - Formulario con validación en tiempo real
 - Feedback visual de errores
 - Modal de confirmación animado
 - Integración con Google Maps (Base de Hereford)
 
-### 📚 Historia
+# Historia
 - Timeline interactiva con animaciones al scroll
 - Sistema de pestañas para información adicional
 - Diseño tipo expediente táctico
 
-## 🎨 Diseño y UX
+# Diseño y UX
 
 - **Paleta de colores**: Negro/Gris oscuro con acentos dorados (#d4af37)
 - **Tipografía**: Montserrat (Google Fonts)
@@ -93,68 +93,58 @@ Nueva-Pagina-R6/
 - **Animaciones CSS**: Transiciones suaves y efectos hover
 - **Metodología BEM**: Nomenclatura de clases consistente
 
-## 🛠️ Instalación y Uso
+# Instalación y Uso
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/TU_USUARIO/rainbow-six-siege-web.git
+git clone https://github.com/Martotz/rainbow-six-siege-web.git
 cd rainbow-six-siege-web
 ```
 
 2. **Abrir el proyecto:**
-   - Simplemente abre `index.html` en tu navegador
+   - Simplemente abrir `index.html` en el navegador
    - O usa un servidor local como Live Server (VS Code)
 
 3. **No requiere instalación de dependencias** - Es un proyecto 100% frontend estático
 
-## 📊 Funcionalidades JavaScript
+# Funcionalidades JavaScript
 
-- ✅ Fetch API para carga asíncrona de JSON
-- ✅ Manipulación dinámica del DOM
-- ✅ Event listeners y delegación de eventos
-- ✅ Validación de formularios en tiempo real
-- ✅ LocalStorage (opcional para favoritos)
-- ✅ Intersection Observer para animaciones
-- ✅ Sistema de routing con URL parameters
+- Fetch API para carga asíncrona de JSON
+- Manipulación dinámica del DOM
+- Event listeners y delegación de eventos
+- Validación de formularios en tiempo real
+- LocalStorage (opcional para favoritos)
+- Intersection Observer para animaciones
+- Sistema de routing con URL parameters
 
-## 🎓 Proyecto Académico
+##Proyecto Académico
 
 Este proyecto fue desarrollado como parte de la asignatura **Programación 1** con los siguientes requisitos cumplidos:
 
-- ✅ HTML semántico y accesible
-- ✅ CSS modular y reutilizable
-- ✅ JavaScript vanilla (sin frameworks)
-- ✅ Carga dinámica de datos JSON
-- ✅ Formulario con validación
-- ✅ Diseño responsive
-- ✅ Integración de API externa (Google Maps)
-- ✅ Documentación completa
+- HTML semántico y accesible
+- CSS modular y reutilizable
+- JavaScript vanilla (sin frameworks)
+- Carga dinámica de datos JSON
+- Formulario con validación
+- Diseño responsive
+- Integración de API externa (Google Maps)
+- Documentación completa
 
-## 📱 Responsive Design
+# Responsive Design
 
 El sitio es completamente responsive con breakpoints en:
 - **Desktop**: 1024px+
 - **Tablet**: 768px - 1024px
 - **Mobile**: < 768px
 
-## 🌐 Navegadores Soportados
-
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
-
-## 📄 Licencia
+# Licencia
 
 Este es un proyecto académico sin fines comerciales. Rainbow Six Siege es propiedad de Ubisoft.
 
-## 👨‍💻 Desarrollador
+# Desarrollador
 
-**DEV_OP** - Estudiante de Ciencia de Datos e IA
+Agustin Martinez - Estudiante de Ciencia de Datos e IA
 
-- Competencias: Lógica (85%), Diseño (78%), Persistencia (95%)
-- Operación: PROGRAMACIÓN 1
-- Estado: MISIÓN COMPLETADA ✅
 
 ## 🔗 Créditos
 
@@ -164,7 +154,3 @@ Este es un proyecto académico sin fines comerciales. Rainbow Six Siege es propi
 - **Desarrollo**: Proyecto académico original
 
 ---
-
-⭐ Si te gustó este proyecto, considera darle una estrella en GitHub!
-
-**Desarrollado con 💻 y ☕ para Programación 1 - 2025**
