@@ -97,12 +97,12 @@ Nueva-Pagina-R6/
 
 1. **Clonar el repositorio:**
 ```bash
-git clone https://github.com/TU_USUARIO/rainbow-six-siege-web.git
+git clone https://github.com/Martotz/rainbow-six-siege-web.git
 cd rainbow-six-siege-web
 ```
 
 2. **Abrir el proyecto:**
-   - Simplemente abre `index.html` en tu navegador
+   - Simplemente abrir `index.html` en el navegador
    - O usa un servidor local como Live Server (VS Code)
 
 3. **No requiere instalación de dependencias** - Es un proyecto 100% frontend estático
