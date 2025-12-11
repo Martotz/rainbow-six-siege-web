@@ -1,0 +1,521 @@
+[
+    {
+        "id": "Ash",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "R4-C",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/R4-C .avif"
+                    
+                },
+                {
+                    "nombre": "G36C",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/G36C.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "M45 MEUSOC",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/M45_MEUSOC.avif"
+                    
+                },
+                {
+                    "nombre": "5.7 USG",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/5.7_USG.avif"
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Claymore",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Claymore.avif"
+                },
+                {
+                    "nombre": "Carga de Demolición",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/R6S_Breach_charge.avif"
+                }
+            ],
+            "habilidades":[
+            {
+                "nombre": "Proyectil de Voladura",
+                "imagen": "R6 Imagenes/Habilidades/Breaching-Rounds.avif"
+            }
+            ]
+        }
+    },
+
+    {
+        "id": "Thermite",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "M1014",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/M1014.avif"
+                    
+                },
+                {
+                    "nombre": "556XI",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/556XI.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "M45 MEUSOC",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/M45_MEUSOC.avif"
+                    
+                },
+                {
+                    "nombre": "5.7 USG",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/5.7_USG.avif"
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Granada de Humo",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Smoke_Grenade.avif"
+                },
+                {
+                    "nombre": "Granada Cegadora",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Stun_Grenade.avif"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Carga Exotérmica",
+                "imagen": "R6 Imagenes/Habilidades/Exothermic-Charge.avif"
+            }
+            ]
+        }
+    },
+
+    {
+        "id": "Twitch",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "F2",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/F2.avif"
+                    
+                },
+                {
+                    "nombre": "417",
+                    "tipo": "Rifle de francotirador",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Precision/417.avif"
+                    
+                },
+                {
+                    "nombre": "SG-CQB",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/SG-CQB.avif"
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P9",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P9.avif"
+                    
+                },
+                {
+                    "nombre": "LFP586",
+                    "tipo": "Revólver",
+                    "imagen": "R6 Imagenes/Armas/Pistola/LFP586.avif"
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Granada de Humo",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Smoke_Grenade.avif"
+                },
+                {
+                    "nombre": "Claymore",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Claymore.avif"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Dron de Electrochoque",
+                "imagen": "R6 Imagenes/Habilidades/Shock-Drones.avif"
+            }
+            ]
+        }
+    },
+
+    {
+        "id": "Montagne",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "Le Roc",
+                    "tipo": "Escudo",
+                    "imagen": "R6 Imagenes/Habilidades/Extendable-Shield.avif"
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P9",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P9.avif"
+                    
+                },
+                {
+                    "nombre": "LFP586",
+                    "tipo": "Revólver",
+                    "imagen": "R6 Imagenes/Armas/Pistola/LFP586.avif"
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Granada de Humo",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Smoke_Grenade.avif"
+                },
+                {
+                    "nombre": "Carga de Demolición",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/R6S_Breach_charge.avif"
+                },
+                {
+                    "nombre": "Granada PEM",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/R6s-EMP-Impact-grenade.png"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Escudo La Roca",
+                "imagen": "R6 Imagenes/Habilidades/Extendable-Shield.avif"
+            }
+            ]
+        }
+    },
+
+    {
+        "id": "Sledge",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "L85A2",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/L85A2.avif"
+                    
+                },
+                {
+                    "nombre": "M590A1",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/M590A1.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P226 MK 25",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P226_MK_25.avif"
+                    
+                },
+                {
+                    "nombre": "Reaper MK2",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/reaper-mk2.avif"
+                    
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Granada Cegadora",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Stun_Grenade.avif"
+                },
+                {
+                    "nombre": "Granada Fragmentaria",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Frag_Grenade.avif"
+                },
+                {
+                   "nombre": "Granada PEM",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/R6s-EMP-Impact-grenade.png"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Martillo Demoledor",
+                "imagen": "R6 Imagenes/Habilidades/Tactical-Breaching-Hammer.avif"
+            }
+            ]
+        }
+    },
+
+    {
+        "id": "Castle",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "M1014",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/M1014.avif"
+                    
+                },
+                {
+                    "nombre": "MP5",
+                    "tipo": "Subfusil",
+                    "imagen": "R6 Imagenes/Armas/Subfusiles/MP5.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P226 MK 25",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P226_MK_25.avif"
+                    
+                },
+                {
+                    "nombre": "Super Shorty",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Pistola/Super Shorty.png"
+                    
+                },
+                {
+                    "nombre": "M45 MEUSOC",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/M45_MEUSOC.avif"
+                    
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Alarma de Proximidad",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Proximity_alarm.avif"
+                },
+                {
+                    "nombre": "Camara Antibalas",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Bulletproof_camera.avif"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Panel de Blindaje",
+                "imagen": "R6 Imagenes/Habilidades/Armor-Panel.avif"
+            }
+            ]
+        }
+    },
+    {
+        "id": "Jager",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "416-C Carbine",
+                    "tipo": "Rifle de asalto",
+                    "imagen": "R6 Imagenes/Armas/Rifles de Asalto/416-C_Carbine.avif"
+                    
+                },
+                {
+                    "nombre": "M870",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/M870.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P12",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P12.avif"
+                    
+                }
+                
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Camara Antibalas",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Bulletproof_camera.avif"
+                },
+                {
+                    "nombre": "Bloqueador de Observación",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Observation Blocker.png"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Sistema de Defensa Activa",
+                "imagen": "R6 Imagenes/Habilidades/Active-Defense-System.avif"
+            }
+            ]
+        }
+    },
+    {
+        "id": "Kapkan",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "9X19VSN",
+                    "tipo": "Subfusil",
+                    "imagen": "R6 Imagenes/Armas/Subfusiles/9X19VSN.avif"
+                    
+                },
+                {
+                    "nombre": "SASG-12",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/SASG-12.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "PMM",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/PMM.avif"
+                    
+                }
+                
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Alambre de Púas",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/barbed-wire__1_.webp"
+                },
+                {
+                    "nombre": "Camara Antibalas",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Bulletproof_camera.avif"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Dispositivo de Bloqueo de Entradas",
+                "imagen": "R6 Imagenes/Habilidades/DBE.avif"
+            }
+            ]
+        }
+    },
+    {
+        "id": "Rook",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "MP5",
+                    "tipo": "Subfusil",
+                    "imagen": "R6 Imagenes/Armas/Subfusiles/MP5.avif"
+                    
+                },
+                {
+                    "nombre": "P90",
+                    "tipo": "Subfusil",
+                    "imagen": "R6 Imagenes/Armas/Subfusiles/P90.avif"
+                    
+                },
+                {
+                    "nombre": "SG-CQB",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Escopetas/SG-CQB.avif"
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "P9",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/P9.avif"
+                    
+                },
+                {
+                    "nombre": "Super Shorty",
+                    "tipo": "Escopeta",
+                    "imagen": "R6 Imagenes/Armas/Pistola/Super Shorty.png"
+                    
+                },
+                {
+                    "nombre": "Reaper MK2",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/reaper-mk2.avif"
+                    
+                }
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Alarma de Proximidad",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Proximity_alarm.avif"
+                },
+                {
+                    "nombre": "Granada De Impacto",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Impact Granade.avif"
+                },
+                {
+                    "nombre": "Bloqueador de Observación",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Observation Blocker.png"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Pack de Blindaje",
+                "imagen": "R6 Imagenes/Habilidades/Armor-Pack.avif"
+            }
+            ]
+        }
+    },
+    {
+        "id": "Tachanka",
+        "loadout": {
+            "primarias": [
+                {
+                    "nombre": "DP27",
+                    "tipo": "Ametralladora ligera",
+                    "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/DP.webp"
+                    
+                },
+                {
+                    "nombre": "9X19VSN",
+                    "tipo": "Subfusil",
+                    "imagen": "R6 Imagenes/Armas/Subfusiles/9X19VSN.avif"
+                    
+                }
+            ],
+            "secundarias": [
+                {
+                    "nombre": "PMM",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/PMM.avif"
+                    
+                },
+                {
+                    "nombre": "GSH-18",
+                    "tipo": "Pistola",
+                    "imagen": "R6 Imagenes/Armas/Pistola/GSh-18.avif"
+                    
+                },
+                {
+                    "nombre": "Bearing 9",
+                    "tipo": "Pistola Ametralladora",
+                    "imagen": "R6 Imagenes/Armas/Pistola/PMM.avif"
+                    
+                }
+                
+            ],
+            "dispositivos": [
+                {
+                    "nombre": "Alarma de Proximidad",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Proximity_alarm.avif"
+                },
+                {
+                    "nombre": "Alambre de Púas",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/barbed-wire__1_.webp"
+                },
+                {
+                    "nombre": "Escudo Desplegable",
+                    "imagen": "R6 Imagenes/Armas/Gadgets/Deployable_Shield.avif"
+                }
+            ],
+            "Habilidades":[
+            {
+                "nombre": "Shumikha",
+                "imagen": "R6 Imagenes/Habilidades/Shumika.webp"
+            }
+            ]
+        }
+    }
+]

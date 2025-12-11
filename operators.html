@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores - Rainbow Six Siege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/operators.css">
+</head>
+<body>
+
+<div id="navbar-container"></div>
+
+<main class="main-content">
+    <section class="container operators">
+        <div class="operators__controls center-content" role="tablist" aria-label="Filtrar operadores">
+            <button class="filter-btn filter-btn--active" data-filter="attackers" type="button">
+                <img src="R6 Imagenes/Espaditas.png" class="btn-icon" alt="icono atacantes">
+                <span>Atacantes</span>
+            </button>
+            <button class="filter-btn" data-filter="defenders" type="button">
+                <img src="R6 Imagenes/Castillito.png" class="btn-icon" alt="icono defensores">
+                <span>Defensores</span>
+            </button>
+        </div>
+
+        <div class="operators__grid" id="operators-grid" role="region" aria-live="polite">
+            <!-- Los operadores se cargarán dinámicamente aquí -->
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__container">
+        <p class="footer__text">&copy; 2025 Rainbow Six Siege. Desarrollado por Ubisoft.</p>
+    </div>
+</footer>
+
+<script src="js/navbar-loader.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

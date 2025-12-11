@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsenal - Rainbow Six Siege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/weapons.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- Contenido Principal -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Título de la Página -->
+            <section class="page-header">
+                <h1 class="page-header__title">ARSENAL</h1>
+                <p class="page-header__subtitle">Explora las armas disponibles en Rainbow Six Siege</p>
+            </section>
+
+            <!-- Acordeón de Armas -->
+            <section class="weapons-accordion">
+                <!-- Fusiles de Asalto -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Rifles de Asalto">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">FUSILES DE ASALTO</h3>
+                            <span class="accordion-header__count" data-count="Rifles de Asalto">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Rifles de Asalto"></div>
+                    </div>
+                </div>
+
+                <!-- Subfusiles -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Subfusiles">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">SUBFUSILES</h3>
+                            <span class="accordion-header__count" data-count="Subfusiles">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Subfusiles"></div>
+                    </div>
+                </div>
+
+                <!-- Ametralladoras Ligeras -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Ametralladora Ligera">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">AMETRALLADORAS LIGERAS</h3>
+                            <span class="accordion-header__count" data-count="Ametralladora Ligera">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Ametralladora Ligera"></div>
+                    </div>
+                </div>
+
+                <!-- Rifles de Precisión -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Rifles de Precision">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">RIFLES DE PRECISIÓN</h3>
+                            <span class="accordion-header__count" data-count="Rifles de Precision">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Rifles de Precision"></div>
+                    </div>
+                </div>
+
+                <!-- Escopetas -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Escopetas">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">ESCOPETAS</h3>
+                            <span class="accordion-header__count" data-count="Escopetas">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Escopetas"></div>
+                    </div>
+                </div>
+
+                <!-- Pistolas -->
+                <div class="accordion-item">
+                    <button class="accordion-header" data-category="Pistola">
+                        <div class="accordion-header__info">
+                            <h3 class="accordion-header__title">PISTOLAS</h3>
+                            <span class="accordion-header__count" data-count="Pistola">0 armas</span>
+                        </div>
+                        <span class="accordion-header__icon">+</span>
+                    </button>
+                    <div class="accordion-body">
+                        <div class="weapons-grid" data-category="Pistola"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Rainbow Six Siege - Proyecto Académico</p>
+    </footer>
+
+<script src="js/navbar-loader.js"></script>
+
+<script>
+async function loadWeapons() {
+    try {
+        const response = await fetch('data/armas.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const weapons = await response.json();
+        
+        renderWeaponsByCategory(weapons);
+        updateWeaponCounts(weapons);
+        
+    } catch (error) {
+        console.error('Error al cargar armas:', error);
+    }
+}
+
+function updateWeaponCounts(weapons) {
+    const categories = ['Rifles de Asalto', 'Subfusiles', 'Ametralladora Ligera', 'Rifles de Precision', 'Escopetas', 'Pistola'];
+    
+    categories.forEach(category => {
+        const count = weapons.filter(weapon => weapon.tipo === category).length;
+        const countElement = document.querySelector(`[data-count="${category}"]`);
+        if (countElement) {
+            countElement.textContent = `${count} armas`;
+        }
+    });
+}
+
+function renderWeaponsByCategory(weapons) {
+    const categories = ['Rifles de Asalto', 'Subfusiles', 'Ametralladora Ligera', 'Rifles de Precision', 'Escopetas', 'Pistola'];
+    
+    categories.forEach(category => {
+        const categoryWeapons = weapons.filter(weapon => weapon.tipo === category);
+        const container = document.querySelector(`.weapons-grid[data-category="${category}"]`);
+        
+        if (container) {
+            container.innerHTML = '';
+            
+            if (categoryWeapons.length === 0) {
+                container.innerHTML = '<p style="color: #b0b0b0; text-align: center;">No hay armas en esta categoría</p>';
+                return;
+            }
+            
+            categoryWeapons.forEach(weapon => {
+                const card = createWeaponCard(weapon);
+                container.appendChild(card);
+            });
+        }
+    });
+}
+
+function createWeaponCard(weapon) {
+    const card = document.createElement('div');
+    card.className = 'weapon-card';
+    
+    card.innerHTML = `
+        <div class="weapon-card__image-container">
+            <img src="${weapon.imagen}" alt="${weapon.nombre}" class="weapon-card__image" 
+                 onerror="this.src='R6 Imagenes/Logo_Index.avif'">
+        </div>
+        <h4 class="weapon-card__name">${weapon.nombre}</h4>
+    `;
+
+    return card;
+}
+
+function initAccordion() {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+    accordionHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+            const accordionItem = header.parentElement;
+            const isActive = accordionItem.classList.contains('active');
+
+            document.querySelectorAll('.accordion-item').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            if (!isActive) {
+                accordionItem.classList.add('active');
+            }
+        });
+    });
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadWeapons();
+    initAccordion();
+});
+</script>
+</body>
+</html>

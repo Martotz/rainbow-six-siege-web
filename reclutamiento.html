@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Únete a Rainbow Six Siege - Formulario de Reclutamiento">
+    <title>Reclutamiento - Rainbow Six Siege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reclutamiento.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Título de la Página -->
+            <section class="page-header">
+                <h1 class="page-header__title">RECLUTAMIENTO ACTIVO</h1>
+                <p class="page-header__subtitle">ÚNETE A LA ÉLITE TÁCTICA DE RAINBOW</p>
+                <div class="page-header__line"></div>
+            </section>
+
+            <!-- Formulario de Reclutamiento -->
+            <section class="recruitment-section">
+                <div class="recruitment-container">
+                    <form id="recruitmentForm" class="recruitment-form">
+                        <div class="form-intro">
+                            <p class="form-intro__text">
+                                Rainbow Six busca operadores de élite para misiones de alto riesgo. 
+                                Complete el formulario de pre-selección y nuestro equipo evaluará su perfil.
+                            </p>
+                        </div>
+
+                        <!-- Campo: Nombre en Clave -->
+                        <div class="form-group">
+                            <label for="codename" class="form-label">
+                                <span class="form-label__icon">▸</span>
+                                NOMBRE EN CLAVE
+                            </label>
+                            <input 
+                                type="text" 
+                                id="codename" 
+                                name="codename" 
+                                class="form-input"
+                                placeholder="Ej: Viper, Phoenix, Shadow..."
+                                required
+                            >
+                            <span class="form-error" id="codename-error"></span>
+                        </div>
+
+                        <!-- Campo: Email -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">
+                                <span class="form-label__icon">▸</span>
+                                FRECUENCIA DE CONTACTO
+                            </label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form-input"
+                                placeholder="canal.encriptado@rainbow.net"
+                                required
+                            >
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+
+                        <!-- Campo: Especialidad -->
+                        <div class="form-group">
+                            <label for="specialty" class="form-label">
+                                <span class="form-label__icon">▸</span>
+                                ESPECIALIDAD TÁCTICA
+                            </label>
+                            <select id="specialty" name="specialty" class="form-select" required>
+                                <option value="" disabled selected>Selecciona tu especialidad</option>
+                                <option value="breacher">BREACHER - Experto en Demoliciones</option>
+                                <option value="intel">INTEL - Recopilación de Inteligencia</option>
+                                <option value="support">SUPPORT - Soporte y Logística</option>
+                                <option value="anchor">ANCHOR - Defensa y Contención</option>
+                            </select>
+                            <span class="form-error" id="specialty-error"></span>
+                        </div>
+
+                        <!-- Campo: Experiencia -->
+                        <div class="form-group">
+                            <label for="experience" class="form-label">
+                                <span class="form-label__icon">▸</span>
+                                EXPERIENCIA OPERATIVA
+                            </label>
+                            <textarea 
+                                id="experience" 
+                                name="experience" 
+                                class="form-textarea"
+                                rows="6"
+                                placeholder="Describe tus habilidades, experiencia previa en operaciones tácticas, conocimientos técnicos relevantes..."
+                                required
+                            ></textarea>
+                            <span class="form-error" id="experience-error"></span>
+                        </div>
+
+                        <!-- Botón de Envío -->
+                        <button type="submit" class="form-submit">
+                            <span class="form-submit__icon">◉</span>
+                            ENVIAR SOLICITUD
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Sección de Ubicación -->
+            <section class="location-section">
+                <h2 class="location-title">
+                    <span class="location-title__icon">📍</span>
+                    BASE DE OPERACIONES - HEREFORD
+                </h2>
+                <p class="location-description">
+                    Nuestro centro de entrenamiento principal está ubicado en Hereford, Reino Unido. 
+                    Antigua base del SAS, ahora sirve como centro neurálgico de Rainbow Six.
+                </p>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39450.84479079731!2d-2.7405738!3d52.0558676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48704498b5fb44c9%3A0x5c3f3f3f3f3f3f3f!2sHereford%2C%20UK!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+                        class="map-iframe"
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2025 Rainbow Six Siege. Desarrollado por Ubisoft.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Éxito -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon">✓</div>
+            <h3 class="modal-title">SOLICITUD ENCRIPTADA Y ENVIADA</h3>
+            <p class="modal-message">
+                Tu perfil ha sido registrado exitosamente. Nuestro equipo de reclutamiento 
+                revisará tu solicitud y te contactará pronto a través del canal encriptado proporcionado.
+            </p>
+            <button id="closeModal" class="modal-button">ENTENDIDO</button>
+        </div>
+    </div>
+
+    <script src="js/navbar-loader.js"></script>
+
+    <script>
+        const form = document.getElementById('recruitmentForm');
+        const codename = document.getElementById('codename');
+        const email = document.getElementById('email');
+        const specialty = document.getElementById('specialty');
+        const experience = document.getElementById('experience');
+        const modal = document.getElementById('successModal');
+        const closeModalBtn = document.getElementById('closeModal');
+
+        function showError(input, message) {
+            const formGroup = input.closest('.form-group');
+            const errorElement = document.getElementById(`${input.id}-error`);
+            
+            input.classList.add('form-input--error');
+            errorElement.textContent = message;
+            errorElement.style.display = 'block';
+        }
+
+        function clearError(input) {
+            const formGroup = input.closest('.form-group');
+            const errorElement = document.getElementById(`${input.id}-error`);
+            
+            input.classList.remove('form-input--error');
+            errorElement.textContent = '';
+            errorElement.style.display = 'none';
+        }
+
+        function validateCodename() {
+            const value = codename.value.trim();
+            
+            if (value.length === 0) {
+                showError(codename, 'El nombre en clave es obligatorio');
+                return false;
+            }
+            
+            if (value.length < 3) {
+                showError(codename, 'El nombre en clave debe tener al menos 3 caracteres');
+                return false;
+            }
+            
+            clearError(codename);
+            return true;
+        }
+
+        function validateEmail() {
+            const value = email.value.trim();
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            
+            if (value.length === 0) {
+                showError(email, 'La frecuencia de contacto es obligatoria');
+                return false;
+            }
+            
+            if (!emailRegex.test(value)) {
+                showError(email, 'Formato de email inválido');
+                return false;
+            }
+            
+            clearError(email);
+            return true;
+        }
+
+        function validateSpecialty() {
+            if (specialty.value === '') {
+                showError(specialty, 'Debes seleccionar una especialidad');
+                return false;
+            }
+            
+            clearError(specialty);
+            return true;
+        }
+
+        function validateExperience() {
+            const value = experience.value.trim();
+            
+            if (value.length === 0) {
+                showError(experience, 'La experiencia operativa es obligatoria');
+                return false;
+            }
+            
+            if (value.length < 20) {
+                showError(experience, 'Describe tu experiencia con al menos 20 caracteres');
+                return false;
+            }
+            
+            clearError(experience);
+            return true;
+        }
+
+        codename.addEventListener('blur', validateCodename);
+        codename.addEventListener('input', () => {
+            if (codename.classList.contains('form-input--error')) {
+                validateCodename();
+            }
+        });
+
+        email.addEventListener('blur', validateEmail);
+        email.addEventListener('input', () => {
+            if (email.classList.contains('form-input--error')) {
+                validateEmail();
+            }
+        });
+
+        specialty.addEventListener('change', validateSpecialty);
+
+        experience.addEventListener('blur', validateExperience);
+        experience.addEventListener('input', () => {
+            if (experience.classList.contains('form-input--error')) {
+                validateExperience();
+            }
+        });
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const isCodenameValid = validateCodename();
+            const isEmailValid = validateEmail();
+            const isSpecialtyValid = validateSpecialty();
+            const isExperienceValid = validateExperience();
+            
+            if (isCodenameValid && isEmailValid && isSpecialtyValid && isExperienceValid) {
+                modal.classList.add('modal--show');
+                form.reset();
+                
+                [codename, email, specialty, experience].forEach(input => {
+                    clearError(input);
+                });
+            }
+        });
+
+        closeModalBtn.addEventListener('click', () => {
+            modal.classList.remove('modal--show');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('modal--show');
+            }
+        });
+    </script>
+</body>
+</html>

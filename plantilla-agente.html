@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operador - Rainbow Six Siege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/plantilla-agente.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-operator">
+        <div class="hero-operator__layout">
+            <!-- Imagen del operador -->
+            <div class="hero-operator__image-container">
+                <img id="operator-image" src="" alt="Operador" class="hero-operator__image">
+            </div>
+            
+            <!-- Información del operador -->
+            <div class="hero-operator__info">
+                <div class="hero-operator__header">
+                    <img id="operator-icon" src="" alt="Icono del operador" class="hero-operator__icon">
+                    <h1 id="operator-name" class="hero-operator__name">CARGANDO...</h1>
+                </div>
+
+                <div class="hero-operator__metadata">
+                    <div class="metadata-item">
+                        <span class="metadata-item__label">BANDO</span>
+                        <span id="operator-role" class="metadata-item__value">-</span>
+                    </div>
+                    <div class="metadata-item">
+                        <span class="metadata-item__label">ESCUADRA</span>
+                        <span id="operator-squad" class="metadata-item__value">-</span>
+                    </div>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-bar">
+                        <div class="stat-bar__header">
+                            <span class="stat-bar__label">SALUD</span>
+                            <div id="stat-health-value" class="stat-bar__value"></div>
+                        </div>
+                        <div class="stat-bar__track">
+                            <div id="stat-health-bar" class="stat-bar__fill" data-value="1"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-bar">
+                        <div class="stat-bar__header">
+                            <span class="stat-bar__label">VELOCIDAD</span>
+                            <div id="stat-speed-value" class="stat-bar__value"></div>
+                        </div>
+                        <div class="stat-bar__track">
+                            <div id="stat-speed-bar" class="stat-bar__fill" data-value="1"></div>
+                        </div>
+                    </div>
+
+                    <div class="stat-bar">
+                        <div class="stat-bar__header">
+                            <span class="stat-bar__label">DIFICULTAD</span>
+                            <div id="stat-difficulty-value" class="stat-bar__value"></div>
+                        </div>
+                        <div class="stat-bar__track">
+                            <div id="stat-difficulty-bar" class="stat-bar__fill" data-value="1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EQUIPAMIENTO ===== -->
+    <section class="loadout-section">
+        <div class="container">
+            <h2 class="section-title">EQUIPAMIENTO</h2>
+            
+            <div class="loadout-grid-blueprint">
+                <!-- Armas Principales -->
+                <div class="loadout-column">
+                    <h3 class="loadout-column__title">ARMAS PRINCIPALES</h3>
+                    <div id="primary-weapons" class="loadout-column__items"></div>
+                </div>
+
+                <!-- Armas Secundarias -->
+                <div class="loadout-column">
+                    <h3 class="loadout-column__title">ARMAS SECUNDARIAS</h3>
+                    <div id="secondary-weapons" class="loadout-column__items"></div>
+                </div>
+
+                <!-- Dispositivos -->
+                <div class="loadout-column">
+                    <h3 class="loadout-column__title">DISPOSITIVOS</h3>
+                    <div id="gadgets" class="loadout-column__items"></div>
+                </div>
+
+                <!-- Habilidad Única -->
+                <div class="loadout-column">
+                    <h3 class="loadout-column__title">HABILIDAD ÚNICA</h3>
+                    <div id="ability-container" class="loadout-column__items">
+                        <div class="ability-card-compact">
+                            <img id="ability-icon" src="" alt="Habilidad" class="ability-card-compact__icon">
+                            <h4 id="ability-title" class="ability-card-compact__name">-</h4>
+                            <p id="ability-description" class="ability-card-compact__description">-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BIOGRAFÍA ===== -->
+    <section class="bio-section">
+        <div class="container">
+            <h2 class="section-title">BIOGRAFÍA</h2>
+            
+            <div class="bio-grid">
+                <div class="bio-panel">
+                    <div class="bio-panel__header">
+                        <h3 class="bio-panel__title">HISTORIAL</h3>
+                    </div>
+                    <div class="bio-panel__content">
+                        <p id="bio-history" class="bio-panel__text">
+                            Cargando información...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bio-panel">
+                    <div class="bio-panel__header">
+                        <h3 class="bio-panel__title">EXPERIENCIA PSICOLÓGICA</h3>
+                    </div>
+                    <div class="bio-panel__content">
+                        <p id="bio-psychology" class="bio-panel__text">
+                            Cargando información...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bio-panel">
+                    <div class="bio-panel__header">
+                        <h3 class="bio-panel__title">NOTAS DE ENTRENAMIENTO</h3>
+                    </div>
+                    <div class="bio-panel__content">
+                        <p id="bio-training" class="bio-panel__text">
+                            Cargando información...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2025 Rainbow Six Siege. Desarrollado por Ubisoft.</p>
+        </div>
+    </footer>
+
+    <script src="js/navbar-loader.js"></script>
+
+    <script>
+        // Función para obtener parámetro de URL
+        function getOperatorIdFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('id');
+        }
+
+        // Función para crear círculos de stats
+        function createStatCircles(value) {
+            let circles = '';
+            for (let i = 1; i <= 3; i++) {
+                const activeClass = i <= value ? 'active' : '';
+                circles += `<span class="stat-circle ${activeClass}"></span>`;
+            }
+            return circles;
+        }
+
+        // Cargar datos del operador
+        async function loadOperatorData() {
+            const operatorId = getOperatorIdFromURL();
+            
+            if (!operatorId) {
+                console.error('No se proporcionó ID de operador');
+                return;
+            }
+
+            try {
+                // Cargar datos de operadores y armas en paralelo
+                const [operatorsResponse, weaponsResponse] = await Promise.all([
+                    fetch('data/operators.json'),
+                    fetch('data/weapons.json')
+                ]);
+
+                const operators = await operatorsResponse.json();
+                const weaponsData = await weaponsResponse.json();
+
+                // Buscar operador específico (comparación flexible por si viene como string o número)
+                const operator = operators.find(op => op.id == operatorId);
+                
+                if (!operator) {
+                    console.error('Operador no encontrado');
+                    return;
+                }
+
+                // Renderizar datos del operador
+                renderOperator(operator, weaponsData);
+                
+            } catch (error) {
+                console.error('Error al cargar datos del operador:', error);
+            }
+        }
+
+        // Renderizar operador
+        function renderOperator(operator, weaponsData) {
+            // Hero section
+            document.getElementById('operator-image').src = operator.imagen;
+            document.getElementById('operator-image').alt = operator.nombre;
+            document.getElementById('operator-icon').src = operator.icono;
+            document.getElementById('operator-name').textContent = operator.nombre.toUpperCase();
+            document.getElementById('operator-role').textContent = operator.rol.toUpperCase();
+            document.getElementById('operator-squad').textContent = operator.escuadra || 'N/A';
+
+            // Stats con círculos
+            document.getElementById('stat-health-value').innerHTML = createStatCircles(operator.salud);
+            document.getElementById('stat-speed-value').innerHTML = createStatCircles(operator.velocidad);
+            document.getElementById('stat-difficulty-value').innerHTML = createStatCircles(operator.dificultad);
+
+            // Barras de progreso
+            const healthBar = document.getElementById('stat-health-bar');
+            const speedBar = document.getElementById('stat-speed-bar');
+            const difficultyBar = document.getElementById('stat-difficulty-bar');
+
+            healthBar.style.width = `${(operator.salud / 3) * 100}%`;
+            speedBar.style.width = `${(operator.velocidad / 3) * 100}%`;
+            difficultyBar.style.width = `${(operator.dificultad / 3) * 100}%`;
+
+            // Equipamiento
+            renderLoadout(operator, weaponsData);
+
+            // Biografía
+            if (operator.biografia_historial || operator.biografia_psicologia || operator.biografia_entrenamiento) {
+                document.getElementById('bio-history').textContent = operator.biografia_historial || 'Sin información disponible';
+                document.getElementById('bio-psychology').textContent = operator.biografia_psicologia || 'Sin información disponible';
+                document.getElementById('bio-training').textContent = operator.biografia_entrenamiento || 'Sin información disponible';
+}
+        }
+
+        // Renderizar equipamiento
+        function renderLoadout(operator, weaponsData) {
+            // Buscar por nombre del operador (weapons.json usa nombres como ID)
+            const operatorWeapons = weaponsData.find(w => w.id === operator.nombre);
+            
+            if (!operatorWeapons || !operatorWeapons.loadout) {
+                console.error('No se encontró equipamiento para el operador');
+                return;
+            }
+
+            const loadout = operatorWeapons.loadout;
+
+            // Armas primarias
+            renderWeaponList('primary-weapons', loadout.primarias || []);
+
+            // Armas secundarias
+            renderWeaponList('secondary-weapons', loadout.secundarias || []);
+
+            // Dispositivos
+            renderWeaponList('gadgets', loadout.dispositivos || []);
+
+            // Habilidad única
+            const habilidades = loadout.habilidades || loadout.Habilidades || [];
+            if (habilidades.length > 0) {
+                const ability = habilidades[0];
+                document.getElementById('ability-icon').src = ability.imagen || ability.icono || 'R6 Imagenes/Logo_Index.avif';
+                document.getElementById('ability-title').textContent = ability.nombre || 'Habilidad Única';
+                
+                // Usar descripción del operator.json si existe
+                const abilityDesc = ability.descripcion || 
+                                   (operator.habilidad_descripcion ? operator.habilidad_descripcion : 'Habilidad especial del operador');
+                document.getElementById('ability-description').textContent = abilityDesc;
+            }
+        }
+
+        // Renderizar lista de armas
+        function renderWeaponList(containerId, weapons) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = '';
+
+            weapons.forEach(weapon => {
+                const weaponCard = document.createElement('div');
+                weaponCard.className = 'weapon-item-compact';
+                weaponCard.innerHTML = `
+                    <img src="${weapon.imagen}" alt="${weapon.nombre}" class="weapon-item-compact__image" 
+                         onerror="this.src='R6 Imagenes/Logo_Index.avif'">
+                    <span class="weapon-item-compact__name">${weapon.nombre}</span>
+                `;
+                container.appendChild(weaponCard);
+            });
+        }
+
+        // Inicializar al cargar la página
+        document.addEventListener('DOMContentLoaded', loadOperatorData);
+    </script>
+</body>
+</html>

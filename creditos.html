@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Créditos y Desarrollador - Rainbow Six Siege">
+    <title>Créditos - Rainbow Six Siege</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/creditos.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Título de la Página -->
+            <section class="page-header">
+                <h1 class="page-header__title">EXPEDIENTE DEL DESARROLLADOR</h1>
+                <p class="page-header__subtitle">CLASIFICACIÓN: PROYECTO ACADÉMICO</p>
+                <div class="page-header__line"></div>
+            </section>
+
+            <!-- Sección Principal: Dos Columnas -->
+            <section class="developer-section">
+                <div class="developer-grid">
+                    <!-- COLUMNA IZQUIERDA: Ficha del Operador -->
+                    <div class="operator-card">
+                        <div class="operator-card__header">
+                            <h2 class="operator-card__title">OPERADOR: DEV_OP</h2>
+                            <div class="operator-card__badge">ACTIVO</div>
+                        </div>
+
+                        <!-- Foto del Desarrollador -->
+                        <div class="operator-card__photo">
+                            <img 
+                                src="img/developer-photo.jpg" 
+                                alt="Foto del Desarrollador" 
+                                class="operator-card__image"
+                                onerror="this.src='R6 Imagenes/Logo_Index.avif'"
+                            >
+                            <div class="operator-card__overlay">
+                                <span class="operator-card__callsign">DEV_OP</span>
+                            </div>
+                        </div>
+
+                        <!-- Información del Operador -->
+                        <div class="operator-card__info">
+                            <div class="info-item">
+                                <span class="info-item__label">NOMBRE EN CLAVE</span>
+                                <span class="info-item__value">DEV_OP</span>
+                            </div>
+
+                            <div class="info-item">
+                                <span class="info-item__label">ROL</span>
+                                <span class="info-item__value">Estudiante de Ciencia de Datos e IA</span>
+                            </div>
+
+                            <div class="info-item info-item--institute">
+                                <span class="info-item__label">UNIDAD</span>
+                                <div class="institute-logo">
+                                    <img 
+                                        src="img/logo_instituto.png" 
+                                        alt="Logo del Instituto" 
+                                        class="institute-logo__image"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"
+                                    >
+                                    <span class="institute-logo__placeholder" style="display: none;">INSTITUTO TECNOLÓGICO</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Stats del Desarrollador -->
+                        <div class="operator-stats">
+                            <h3 class="operator-stats__title">COMPETENCIAS TÁCTICAS</h3>
+                            
+                            <div class="stat-progress">
+                                <div class="stat-progress__header">
+                                    <span class="stat-progress__label">LÓGICA</span>
+                                    <span class="stat-progress__value">85%</span>
+                                </div>
+                                <div class="stat-progress__bar">
+                                    <div class="stat-progress__fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="stat-progress">
+                                <div class="stat-progress__header">
+                                    <span class="stat-progress__label">DISEÑO</span>
+                                    <span class="stat-progress__value">78%</span>
+                                </div>
+                                <div class="stat-progress__bar">
+                                    <div class="stat-progress__fill" style="width: 78%"></div>
+                                </div>
+                            </div>
+
+                            <div class="stat-progress">
+                                <div class="stat-progress__header">
+                                    <span class="stat-progress__label">PERSISTENCIA</span>
+                                    <span class="stat-progress__value">95%</span>
+                                </div>
+                                <div class="stat-progress__bar">
+                                    <div class="stat-progress__fill" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- COLUMNA DERECHA: Informe de Misión -->
+                    <div class="mission-report">
+                        <div class="mission-report__header">
+                            <div class="mission-report__badge">PROYECTO ACADÉMICO</div>
+                            <h2 class="mission-report__title">OPERACIÓN: PROGRAMACIÓN 1</h2>
+                            <div class="mission-report__code">CÓDIGO: R6-WEB-2025</div>
+                        </div>
+
+                        <div class="mission-report__content">
+                            <h3 class="report-section__title">
+                                <span class="report-section__icon">📋</span>
+                                OBJETIVO DE LA MISIÓN
+                            </h3>
+                            <p class="report-section__text">
+                                <strong>Objetivo Primario:</strong> Desplegar una base de datos interactiva bajo estrictos 
+                                protocolos de HTML5, CSS3 y JavaScript vanilla. La operación requiere demostrar competencias 
+                                en manipulación del DOM, validación de formularios, arquitectura de información y diseño 
+                                responsivo adaptativo.
+                            </p>
+                            <p class="report-section__text">
+                                <strong>Parámetros de Ejecución:</strong> El proyecto debe replicar la estética táctica 
+                                de Rainbow Six Siege, implementando navegación multinivel, carga dinámica de contenido 
+                                mediante JSON, formularios validados en tiempo real y componentes interactivos sin 
+                                dependencias de frameworks externos.
+                            </p>
+
+                            <h3 class="report-section__title">
+                                <span class="report-section__icon">🎯</span>
+                                ESPECIFICACIONES TÉCNICAS
+                            </h3>
+                            <ul class="report-section__list">
+                                <li><strong>Frontend:</strong> HTML5 semántico con arquitectura BEM</li>
+                                <li><strong>Estilos:</strong> CSS3 con variables personalizadas, flexbox y grid</li>
+                                <li><strong>Lógica:</strong> JavaScript ES6+ con manejo asíncrono de datos</li>
+                                <li><strong>Diseño:</strong> Responsive design con breakpoints adaptativos</li>
+                                <li><strong>Validación:</strong> Formularios con prevención de envío y feedback visual</li>
+                                <li><strong>Integración:</strong> Google Maps API, carga dinámica de JSON</li>
+                            </ul>
+
+                            <h3 class="report-section__title">
+                                <span class="report-section__icon">✓</span>
+                                ESTADO DE LA OPERACIÓN
+                            </h3>
+                            <p class="report-section__text">
+                                <strong class="mission-status mission-status--success">MISIÓN COMPLETADA</strong> - 
+                                Todos los objetivos primarios y secundarios han sido alcanzados exitosamente. El sistema 
+                                está desplegado y operacional, cumpliendo con los estándares académicos requeridos para 
+                                la asignatura Programación 1.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Loadout Tecnológico -->
+            <section class="tech-loadout">
+                <h2 class="section-title">
+                    <span class="section-title__icon">🛠️</span>
+                    LOADOUT TECNOLÓGICO
+                </h2>
+
+                <div class="tech-grid">
+                    <!-- HTML5 -->
+                    <div class="tech-card">
+                        <div class="tech-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e34c26" width="60" height="60">
+                                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tech-card__name">HTML5</h3>
+                        <p class="tech-card__type">TIPO: ESTRUCTURA</p>
+                        <p class="tech-card__description">
+                            Marcado semántico de última generación. Proporciona la arquitectura base 
+                            para toda la operación web.
+                        </p>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="tech-card">
+                        <div class="tech-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#264de4" width="60" height="60">
+                                <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tech-card__name">CSS3</h3>
+                        <p class="tech-card__type">TIPO: ESTILIZADO TÁCTICO</p>
+                        <p class="tech-card__description">
+                            Sistema de camuflaje visual avanzado. Implementa gradientes, animaciones 
+                            y diseño responsivo adaptativo.
+                        </p>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="tech-card">
+                        <div class="tech-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f0db4f" width="60" height="60">
+                                <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tech-card__name">JAVASCRIPT</h3>
+                        <p class="tech-card__type">TIPO: LÓGICA DE COMBATE</p>
+                        <p class="tech-card__description">
+                            Motor de inteligencia táctica. Maneja eventos del DOM, validación de datos 
+                            y carga asíncrona de información.
+                        </p>
+                    </div>
+
+                    <!-- VS Code -->
+                    <div class="tech-card">
+                        <div class="tech-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#007acc" width="60" height="60">
+                                <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+                            </svg>
+                        </div>
+                        <h3 class="tech-card__name">VS CODE</h3>
+                        <p class="tech-card__type">TIPO: CENTRO DE MANDO</p>
+                        <p class="tech-card__description">
+                            Estación de desarrollo integrada. Proporciona control total sobre el código 
+                            y optimización del flujo de trabajo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Botón de Retorno -->
+            <section class="return-section">
+                <a href="index.html" class="return-btn">
+                    <span class="return-btn__icon">◄</span>
+                    VOLVER AL MENÚ PRINCIPAL
+                </a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2025 Rainbow Six Siege. Desarrollado por Ubisoft. Proyecto Académico.</p>
+        </div>
+    </footer>
+
+    <script src="js/navbar-loader.js"></script>
+</body>
+</html>

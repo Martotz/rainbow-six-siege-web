@@ -1,0 +1,379 @@
+/* =============================================
+   WEAPONS PAGE - ESTILOS
+   ============================================= */
+
+/* --------- CONTENIDO PRINCIPAL --------- */
+.main-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* --------- PÁGINA HEADER --------- */
+.page-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.page-header__title {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin: 0 0 15px 0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page-header__subtitle {
+    font-size: 16px;
+    color: #b0b0b0;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+/* =============================================
+   ACORDEÓN
+   ============================================= */
+
+.weapons-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+/* --------- ITEM DEL ACORDEÓN --------- */
+.accordion-item {
+    background-color: rgba(26, 26, 26, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.accordion-item:hover {
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+.accordion-item.active {
+    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow: 0 8px 30px rgba(212, 175, 55, 0.15);
+}
+
+/* --------- HEADER DEL ACORDEÓN --------- */
+.accordion-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    background: linear-gradient(135deg, rgba(13, 13, 13, 0.9) 0%, rgba(26, 26, 26, 0.9) 100%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.accordion-header:hover::before {
+    left: 100%;
+}
+
+.accordion-header:hover {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.9) 0%, rgba(35, 35, 35, 0.9) 100%);
+}
+
+.accordion-header__info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.accordion-header__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+.accordion-header:hover .accordion-header__title {
+    color: #d4af37;
+}
+
+.accordion-header__count {
+    font-size: 13px;
+    color: #b0b0b0;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.accordion-header__icon {
+    font-size: 32px;
+    font-weight: 300;
+    color: #d4af37;
+    transition: transform 0.3s ease;
+    line-height: 1;
+}
+
+.accordion-item.active .accordion-header__icon {
+    transform: rotate(45deg);
+}
+
+/* --------- BODY DEL ACORDEÓN --------- */
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    background-color: rgba(13, 13, 13, 0.5);
+}
+
+.accordion-item.active .accordion-body {
+    max-height: 5000px;
+    padding: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* =============================================
+   TARJETAS DE ARMAS
+   ============================================= */
+
+.weapons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.weapon-card {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.weapon-card:hover {
+    border-color: #d4af37;
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(212, 175, 55, 0.25);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* --------- CONTENEDOR DE IMAGEN --------- */
+.weapon-card__image-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    border-radius: 6px;
+}
+
+.weapon-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+    transition: transform 0.4s ease;
+}
+
+.weapon-card:hover .weapon-card__image {
+    transform: scale(1.15);
+}
+
+/* --------- NOMBRE DEL ARMA --------- */
+.weapon-card__name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+}
+
+.weapon-card:hover .weapon-card__name {
+    color: #d4af37;
+}
+
+/* =============================================
+   RESPONSIVE - TABLETS
+   ============================================= */
+@media (max-width: 1024px) {
+    .main-content {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .page-header__title {
+        font-size: 40px;
+    }
+
+    .weapons-accordion {
+        padding-bottom: 50px;
+    }
+
+    .weapons-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .page-header__title {
+        font-size: 36px;
+    }
+
+    .page-header__subtitle {
+        font-size: 14px;
+    }
+
+    .page-header {
+        margin-bottom: 40px;
+    }
+
+    .weapons-accordion {
+        gap: 15px;
+        padding-bottom: 40px;
+    }
+
+    .accordion-header {
+        padding: 20px;
+    }
+
+    .accordion-header__title {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .accordion-header__count {
+        font-size: 12px;
+    }
+
+    .accordion-header__icon {
+        font-size: 28px;
+    }
+
+    .accordion-item.active .accordion-body {
+        padding: 20px;
+    }
+
+    .weapons-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 15px;
+    }
+
+    .weapon-card {
+        padding: 15px;
+    }
+
+    .weapon-card__image-container {
+        height: 100px;
+    }
+
+    .weapon-card__name {
+        font-size: 12px;
+    }
+}
+
+/* =============================================
+   RESPONSIVE - MOBILE
+   ============================================= */
+@media (max-width: 480px) {
+    .main-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .page-header__title {
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .page-header__subtitle {
+        font-size: 13px;
+        padding: 0 20px;
+    }
+
+    .page-header {
+        margin-bottom: 30px;
+    }
+
+    .weapons-accordion {
+        gap: 12px;
+        padding-bottom: 30px;
+    }
+
+    .accordion-header {
+        padding: 18px 15px;
+    }
+
+    .accordion-header__title {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .accordion-header__count {
+        font-size: 11px;
+    }
+
+    .accordion-header__icon {
+        font-size: 24px;
+    }
+
+    .accordion-item.active .accordion-body {
+        padding: 15px;
+    }
+
+    .weapons-grid {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 12px;
+    }
+
+    .weapon-card {
+        padding: 12px;
+    }
+
+    .weapon-card__image-container {
+        height: 80px;
+    }
+
+    .weapon-card__name {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+    }
+
+    .weapon-card:hover {
+        transform: translateY(-5px);
+    }
+}
