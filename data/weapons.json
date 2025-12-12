@@ -61,7 +61,7 @@
                 {
                     "nombre": "556XI",
                     "tipo": "Rifle de asalto",
-                    "imagen": "R6_Imagenes/Armas/Rifles de Asalto/556XI.avif"
+                    "imagen": "R6_Imagenes/Armas/Rifles de Asalto/556xi.avif"
                     
                 }
             ],
@@ -185,7 +185,7 @@
                 },
                 {
                     "nombre": "Granada PEM",
-                    "imagen": "R6_Imagenes/Armas/Gadgets/R6s-EMP-Impact-grenade.png"
+                    "imagen": "R6_Imagenes/Armas/Gadgets/R6S-EMP-Impact-grenade.png"
                 }
             ],
             "Habilidades":[
@@ -218,7 +218,7 @@
                 {
                     "nombre": "P226 MK 25",
                     "tipo": "Pistola",
-                    "imagen": "R6_Imagenes/Armas/Pistola/P226_MK_25.avif"
+                    "imagen": "R6_Imagenes/Armas/Pistola/P226_Mk_25.avif"
                     
                 },
                 {
@@ -239,7 +239,7 @@
                 },
                 {
                    "nombre": "Granada PEM",
-                    "imagen": "R6_Imagenes/Armas/Gadgets/R6s-EMP-Impact-grenade.png"
+                    "imagen": "R6_Imagenes/Armas/Gadgets/R6S-EMP-Impact-grenade.png"
                 }
             ],
             "Habilidades":[
@@ -272,7 +272,7 @@
                 {
                     "nombre": "P226 MK 25",
                     "tipo": "Pistola",
-                    "imagen": "R6_Imagenes/Armas/Pistola/P226_MK_25.avif"
+                    "imagen": "R6_Imagenes/Armas/Pistola/P226_Mk_25.avif"
                     
                 },
                 {
@@ -357,7 +357,7 @@
                 {
                     "nombre": "9X19VSN",
                     "tipo": "Subfusil",
-                    "imagen": "R6_Imagenes/Armas/Subfusiles/9X19VSN.avif"
+                    "imagen": "R6_Imagenes/Armas/Subfusiles/9x19VSN.avif"
                     
                 },
                 {
