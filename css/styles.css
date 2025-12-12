@@ -193,6 +193,38 @@ body::before {
     text-decoration: none;
 }
 
+/* --------- BOTÓN HAMBURGUESA --------- */
+.navbar__hamburger {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    gap: 5px;
+    z-index: 1001;
+}
+
+.navbar__hamburger-line {
+    width: 25px;
+    height: 3px;
+    background-color: #ececec;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+.navbar__hamburger.active .navbar__hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+}
+
+.navbar__hamburger.active .navbar__hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar__hamburger.active .navbar__hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
 /* --------- MAIN CONTENT --------- */
 .main-content {
     flex: 1;
@@ -330,7 +362,7 @@ body::before {
 }
 
 /* =============================================
-   RESPONSIVE - TABLETS
+   RESPONSIVE - TABLETS Y MOBILE
    ============================================= */
 @media (max-width: 768px) {
     .hero__logo {
@@ -349,7 +381,6 @@ body::before {
         gap: 30px;
     }
 
-
     .navbar__container {
         padding: 12px 20px;
         height: 60px;
@@ -359,14 +390,43 @@ body::before {
         height: 38px;
     }
 
-    
+    /* Mostrar hamburguesa en tableta y móvil */
+    .navbar__hamburger {
+        display: flex;
+    }
 
+    /* Menú en tableta y móvil */
     .navbar__menu {
-        gap: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #1a1a1a;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    /* Mostrar menú cuando está activo */
+    .navbar__menu.active {
+        max-height: 300px;
+        padding: 15px 0;
+    }
+
+    .navbar__item {
+        width: 100%;
+        padding: 12px 20px;
+        border-bottom: 1px solid #2a2a2a;
+        height: auto;
     }
 
     .navbar__link {
         font-size: 12px;
+        letter-spacing: 0.8px;
     }
 }
 
@@ -400,8 +460,6 @@ body::before {
         gap: 25px;
     }
 
-   
-
     .navbar__container {
         padding: 10px 15px;
         height: 55px;
@@ -412,10 +470,12 @@ body::before {
         height: 32px;
     }
 
-   
-
     .navbar__menu {
-        gap: 12px;
+        top: 55px;
+    }
+
+    .navbar__menu.active {
+        max-height: 280px;
     }
 
     .navbar__link {
