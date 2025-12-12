@@ -55,7 +55,7 @@ function renderOperators(operators) {
                 <img src="${operator.imagen}" alt="${operator.nombre}" class="operator-img">
             </figure>
             <div class="operator-info">
-                <img src="R6 Imagenes/Icons - Operadores/${operator.nombre}.png" 
+                <img src="R6_Imagenes/Icons - Operadores/${operator.nombre}.png" 
                      alt="Icono ${operator.nombre}" 
                      class="operator-icon"
                      onerror="this.style.display='none'">

@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../R6 Imagenes/Fondo 1.jpg');
+    background-image: url('../R6_Imagenes/Fondo 1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

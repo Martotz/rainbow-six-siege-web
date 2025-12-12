@@ -53,7 +53,7 @@ Nueva-Pagina-R6/
 │   ├── weapons.json        # Equipamiento por operador
 │   └── armas.json          # Catálogo completo de armas
 │
-└── R6 Imagenes/            # Recursos visuales
+└── R6_Imagenes/            # Recursos visuales
     ├── Cards - Operadores/
     ├── Icons - Operadores/
     ├── Armas/

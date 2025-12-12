@@ -276,7 +276,7 @@
             const habilidades = loadout.habilidades || loadout.Habilidades || [];
             if (habilidades.length > 0) {
                 const ability = habilidades[0];
-                document.getElementById('ability-icon').src = ability.imagen || ability.icono || 'R6 Imagenes/Logo_Index.avif';
+                document.getElementById('ability-icon').src = ability.imagen || ability.icono || 'R6_Imagenes/Logo_Index.avif';
                 document.getElementById('ability-title').textContent = ability.nombre || 'Habilidad Única';
                 
                 // Usar descripción del operator.json si existe
@@ -296,7 +296,7 @@
                 weaponCard.className = 'weapon-item-compact';
                 weaponCard.innerHTML = `
                     <img src="${weapon.imagen}" alt="${weapon.nombre}" class="weapon-item-compact__image" 
-                         onerror="this.src='R6 Imagenes/Logo_Index.avif'">
+                         onerror="this.src='R6_Imagenes/Logo_Index.avif'">
                     <span class="weapon-item-compact__name">${weapon.nombre}</span>
                 `;
                 container.appendChild(weaponCard);

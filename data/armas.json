@@ -1,657 +1,657 @@
-[
+﻿[
     {
         "id": "5.7-usg",
         "nombre": "5.7 USG",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/5.7_USG.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/5.7_USG.avif"
     },
     {
         "id": "44-mag-semi-auto",
         "nombre": "44 Mag Semi-Auto",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/44_Mag_Semi-Auto.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/44_Mag_Semi-Auto.avif"
     },
     {
         "id": "44vendetta",
         "nombre": "44 VENDETTA",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/44VENDETTA.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/44VENDETTA.avif"
     },
     {
         "id": "1911-tacops",
         "nombre": "1911 TACOPS",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/1911_TACOPS.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/1911_TACOPS.avif"
     },
     {
         "id": "bailiff-410",
         "nombre": "Bailiff 410",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/Bailiff_410.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/Bailiff_410.avif"
     },
     {
         "id": "bearing-9",
         "nombre": "Bearing 9",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/Bearing_9.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/Bearing_9.avif"
     },
     {
         "id": "c75-auto",
         "nombre": "C75 Auto",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/C75_Auto.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/C75_Auto.avif"
     },
     {
         "id": "d-50",
         "nombre": "D-50",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/D-50.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/D-50.avif"
     },
     {
         "id": "glaive-12",
         "nombre": "Glaive 12",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/glaive-12.png"
+        "imagen": "R6_Imagenes/Armas/Pistola/glaive-12.png"
     },
     {
         "id": "gonne-6",
         "nombre": "GONNE-6",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/GONNE-6_HUD_Icon__1_.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/GONNE-6_HUD_Icon__1_.avif"
     },
     {
         "id": "gsh-18",
         "nombre": "GSH-18",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/GSh-18.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/GSh-18.avif"
     },
     {
         "id": "ita12s",
         "nombre": "ITA12S",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/ITA12S.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/ITA12S.avif"
     },
     {
         "id": "lfp586",
         "nombre": "LFP586",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/LFP586.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/LFP586.avif"
     },
     {
         "id": "m45-meusoc",
         "nombre": "M45 MEUSOC",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/M45_MEUSOC.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/M45_MEUSOC.avif"
     },
     {
         "id": "mk1-9mm-bi",
         "nombre": "Mk1 9mm BI",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/Mk1_9mm_BI.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/Mk1_9mm_BI.avif"
     },
     {
         "id": "p-10c",
         "nombre": "P-10C",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/P-10C.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/P-10C.avif"
     },
     {
         "id": "p12",
         "nombre": "P12",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/P12.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/P12.avif"
     },
     {
         "id": "p226-mk-25",
         "nombre": "P226 Mk 25",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/P226_Mk_25.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/P226_Mk_25.avif"
     },
     {
         "id": "p229",
         "nombre": "P229",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/P229.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/P229.avif"
     },
     {
         "id": "p9",
         "nombre": "P9",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/P9.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/P9.avif"
     },
     {
         "id": "pmm",
         "nombre": "PMM",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/PMM.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/PMM.avif"
     },
     {
         "id": "prb92",
         "nombre": "PRB92",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/PRB92.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/PRB92.avif"
     },
     {
         "id": "q-929",
         "nombre": "Q-929",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/Q-929.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/Q-929.avif"
     },
     {
         "id": "reaper-mk2",
         "nombre": "Reaper MK2",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/reaper-mk2.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/reaper-mk2.avif"
     },
     {
         "id": "rg15",
         "nombre": "RG15",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/RG15.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/RG15.avif"
     },
     {
         "id": "sdp-9mm",
         "nombre": "SDP 9mm",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/SDP_9mm.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/SDP_9mm.avif"
     },
     {
         "id": "smg-11",
         "nombre": "SMG-11",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/SMG-11.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/SMG-11.avif"
     },
     {
         "id": "smg-12",
         "nombre": "SMG-12",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/SMG-12.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/SMG-12.avif"
     },
     {
         "id": "spsmg9",
         "nombre": "SPSMG9",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/SPSMG9.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/SPSMG9.avif"
     },
     {
         "id": "super-shorty",
         "nombre": "Super Shorty",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/Super Shorty.png"
+        "imagen": "R6_Imagenes/Armas/Pistola/Super Shorty.png"
     },
     {
         "id": "usp40",
         "nombre": "USP40",
         "tipo": "Pistola",
-        "imagen": "R6 Imagenes/Armas/Pistola/USP40.avif"
+        "imagen": "R6_Imagenes/Armas/Pistola/USP40.avif"
     },
     {
         "id": "416-c-carbine",
         "nombre": "416-C Carbine",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/416-C_Carbine.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/416-C_Carbine.avif"
     },
     {
         "id": "552-commando",
         "nombre": "552 Commando",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/552_Commando.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/552_Commando.avif"
     },
     {
         "id": "556xi",
         "nombre": "556XI",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/556xi.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/556xi.avif"
     },
     {
         "id": "ak-12",
         "nombre": "AK-12",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/AK-12.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/AK-12.avif"
     },
     {
         "id": "ak-74m",
         "nombre": "AK-74M",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/AK-74M.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/AK-74M.avif"
     },
     {
         "id": "ar33",
         "nombre": "AR33",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/AR33.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/AR33.avif"
     },
     {
         "id": "arx200",
         "nombre": "ARX200",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/ARX200.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/ARX200.avif"
     },
     {
         "id": "aug-a2",
         "nombre": "AUG A2",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/AUG_A2.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/AUG_A2.avif"
     },
     {
         "id": "aug-a3",
         "nombre": "AUG A3",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/AUG_A3.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/AUG_A3.avif"
     },
     {
         "id": "c7e",
         "nombre": "C7E",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/C7E.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/C7E.avif"
     },
     {
         "id": "c8-sfw",
         "nombre": "C8-SFW",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/C8-SFW.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/C8-SFW.avif"
     },
     {
         "id": "commando-9",
         "nombre": "Commando 9",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/Commando_9.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/Commando_9.avif"
     },
     {
         "id": "f2",
         "nombre": "F2",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/F2.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/F2.avif"
     },
     {
         "id": "f2000",
         "nombre": "F2000",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/F2000.png"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/F2000.png"
     },
     {
         "id": "g36c",
         "nombre": "G36C",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/G36C.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/G36C.avif"
     },
     {
         "id": "l85a2",
         "nombre": "L85A2",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/L85A2.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/L85A2.avif"
     },
     {
         "id": "m4",
         "nombre": "M4",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/M4.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/M4.avif"
     },
     {
         "id": "m762",
         "nombre": "M762",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/M762.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/M762.avif"
     },
     {
         "id": "mk17-cqb",
         "nombre": "Mk17 CQB",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/Mk17_CQB.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/Mk17_CQB.avif"
     },
     {
         "id": "para-308",
         "nombre": "PARA-308",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/PARA-308.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/PARA-308.avif"
     },
     {
         "id": "pcx-33",
         "nombre": "PCX-33",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/pcx-33.png"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/pcx-33.png"
     },
     {
         "id": "pof9",
         "nombre": "POF9",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/POF9.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/POF9.avif"
     },
     {
         "id": "r4-c",
         "nombre": "R4-C",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/R4-C .avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/R4-C .avif"
     },
     {
         "id": "f90",
         "nombre": "F90",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/r6-operator-weapon-ar-f90.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/r6-operator-weapon-ar-f90.avif"
     },
     {
         "id": "spear-308",
         "nombre": "Spear .308",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/Spear_.308.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/Spear_.308.avif"
     },
     {
         "id": "type-89",
         "nombre": "Type-89",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/Type-89.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/Type-89.avif"
     },
     {
         "id": "v308",
         "nombre": "V308",
         "tipo": "Rifles de Asalto",
-        "imagen": "R6 Imagenes/Armas/Rifles de Asalto/V308.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Asalto/V308.avif"
     },
     {
         "id": "9mm-c1",
         "nombre": "9mm C1",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/9mm_C1.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/9mm_C1.avif"
     },
     {
         "id": "9x19vsn",
         "nombre": "9X19VSN",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/9x19VSN.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/9x19VSN.avif"
     },
     {
         "id": "9x19svn",
         "nombre": "9X19SVN",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/9X19SVN.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/9X19SVN.avif"
     },
     {
         "id": "aug-a3-smg",
         "nombre": "AUG A3",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/AUG_A3.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/AUG_A3.avif"
     },
     {
         "id": "fmg-9",
         "nombre": "FMG-9",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/FMG-9.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/FMG-9.avif"
     },
     {
         "id": "k1a",
         "nombre": "K1A",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/K1A.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/K1A.avif"
     },
     {
         "id": "m12",
         "nombre": "M12",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/M12.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/M12.avif"
     },
     {
         "id": "mp5",
         "nombre": "MP5",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/MP5.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/MP5.avif"
     },
     {
         "id": "mp5k",
         "nombre": "MP5K",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/MP5K.webp"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/MP5K.webp"
     },
     {
         "id": "mp5sd",
         "nombre": "MP5SD",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/MP5SD.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/MP5SD.avif"
     },
     {
         "id": "mp7",
         "nombre": "MP7",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/MP7.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/MP7.avif"
     },
     {
         "id": "mpx",
         "nombre": "MPX",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/MPX.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/MPX.avif"
     },
     {
         "id": "mx4-storm",
         "nombre": "Mx4 Storm",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/Mx4_Storm.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/Mx4_Storm.avif"
     },
     {
         "id": "p10roni",
         "nombre": "P10 Roni",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/p10roni.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/p10roni.avif"
     },
     {
         "id": "p90",
         "nombre": "P90",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/P90.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/P90.avif"
     },
     {
         "id": "scorpion-evo-3-a1",
         "nombre": "Scorpion EVO 3 A1",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/Scorpion_EVO_3_A1.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/Scorpion_EVO_3_A1.avif"
     },
     {
         "id": "t-5-smg",
         "nombre": "T-5 SMG",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/T-5_SMG.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/T-5_SMG.avif"
     },
     {
         "id": "ump45",
         "nombre": "UMP45",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/UMP45.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/UMP45.avif"
     },
     {
         "id": "uzk50gi",
         "nombre": "UZK50GI",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/uzk50gi.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/uzk50gi.avif"
     },
     {
         "id": "vector-45-acp",
         "nombre": "Vector .45 ACP",
         "tipo": "Subfusiles",
-        "imagen": "R6 Imagenes/Armas/Subfusiles/Vector_.45_ACP.avif"
+        "imagen": "R6_Imagenes/Armas/Subfusiles/Vector_.45_ACP.avif"
     },
     {
         "id": "acs12-pb",
         "nombre": "ACS12 PB",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/ACS12_PB.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/ACS12_PB.avif"
     },
     {
         "id": "bosg-12-2",
         "nombre": "BOSG.12.2",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/BOSG.12.2.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/BOSG.12.2.avif"
     },
     {
         "id": "fo-12",
         "nombre": "FO-12",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/FO-12.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/FO-12.avif"
     },
     {
         "id": "ita12l",
         "nombre": "ITA12L",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/ITA12L.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/ITA12L.avif"
     },
     {
         "id": "m1014",
         "nombre": "M1014",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/M1014.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/M1014.avif"
     },
     {
         "id": "m590a1",
         "nombre": "M590A1",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/M590A1.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/M590A1.avif"
     },
     {
         "id": "m870",
         "nombre": "M870",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/M870.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/M870.avif"
     },
     {
         "id": "sasg-12",
         "nombre": "SASG-12",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SASG-12.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SASG-12.avif"
     },
     {
         "id": "sg-cqb",
         "nombre": "SG-CQB",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SG-CQB.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SG-CQB.avif"
     },
     {
         "id": "six12",
         "nombre": "SIX12",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SIX12.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SIX12.avif"
     },
     {
         "id": "six12-sd",
         "nombre": "SIX12 SD",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SIX12_SD.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SIX12_SD.avif"
     },
     {
         "id": "spas-12",
         "nombre": "SPAS-12",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SPAS-12.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SPAS-12.avif"
     },
     {
         "id": "spas-15",
         "nombre": "SPAS-15",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SPAS-15.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SPAS-15.avif"
     },
     {
         "id": "supernova",
         "nombre": "SuperNova",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/SuperNova.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/SuperNova.avif"
     },
     {
         "id": "super-90",
         "nombre": "Super 90",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/Super_90.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/Super_90.avif"
     },
     {
         "id": "tcsg12",
         "nombre": "TCSG12",
         "tipo": "Escopetas",
-        "imagen": "R6 Imagenes/Armas/Escopetas/TCSG12.avif"
+        "imagen": "R6_Imagenes/Armas/Escopetas/TCSG12.avif"
     },
     {
         "id": "417",
         "nombre": "417",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/417.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/417.avif"
     },
     {
         "id": "ar-15-50",
         "nombre": "AR-15.50",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/AR-15.50.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/AR-15.50.avif"
     },
     {
         "id": "camrs",
         "nombre": "CAMRS",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/CAMRS.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/CAMRS.avif"
     },
     {
         "id": "mk-14-ebr",
         "nombre": "Mk 14 EBR",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/Mk_14_EBR.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/Mk_14_EBR.avif"
     },
     {
         "id": "ots-03",
         "nombre": "OTs-03",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/OTs-03.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/OTs-03.avif"
     },
     {
         "id": "pmr90a2",
         "nombre": "PMR90A2",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/PMR90A2.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/PMR90A2.avif"
     },
     {
         "id": "sr-25",
         "nombre": "SR-25",
         "tipo": "Rifles de Precision",
-        "imagen": "R6 Imagenes/Armas/Rifles de Precision/SR-25.avif"
+        "imagen": "R6_Imagenes/Armas/Rifles de Precision/SR-25.avif"
     },
     {
         "id": "6p41",
         "nombre": "6P41",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/6P41.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/6P41.avif"
     },
     {
         "id": "alda-5-56",
         "nombre": "ALDA 5.56",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/ALDA_5.56.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/ALDA_5.56.avif"
     },
     {
         "id": "dp27",
         "nombre": "DP27",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/DP.webp"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/DP.webp"
     },
     {
         "id": "g8a1",
         "nombre": "G8A1",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/G8A1.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/G8A1.avif"
     },
     {
         "id": "lmg-e",
         "nombre": "LMG-E",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/LMG-E.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/LMG-E.avif"
     },
     {
         "id": "m249",
         "nombre": "M249",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/M249.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/M249.avif"
     },
     {
         "id": "m249-saw",
         "nombre": "M249 SAW",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/M249_SAW.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/M249_SAW.avif"
     },
     {
         "id": "t-95-lsw",
         "nombre": "T-95 LSW",
         "tipo": "Ametralladora Ligera",
-        "imagen": "R6 Imagenes/Armas/Ametralladora Ligera/T-95_LSW.avif"
+        "imagen": "R6_Imagenes/Armas/Ametralladora Ligera/T-95_LSW.avif"
     }
     
 ]
